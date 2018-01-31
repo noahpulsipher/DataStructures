@@ -72,9 +72,9 @@
 		E4DD74A52022435300F8E087 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E4DD74AE2022470900F8E087 /* Tools */,
 				E4DD74A82022437800F8E087 /* Controller.cpp */,
 				E4DD74A92022437800F8E087 /* Controller.hpp */,
+				E4DD74AE2022470900F8E087 /* Tools */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
