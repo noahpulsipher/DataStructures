@@ -60,6 +60,7 @@
 		E4DD749D2022433D00F8E087 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				E4DD74A62022436800F8E087 /* Runner.cpp */,
 				E4DD74A52022435300F8E087 /* Controller */,
 			);
 			path = DataStructures;
@@ -68,7 +69,6 @@
 		E4DD74A52022435300F8E087 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E4DD74A62022436800F8E087 /* Runner.cpp */,
 				E4DD74A82022437800F8E087 /* Controller.cpp */,
 				E4DD74A92022437800F8E087 /* Controller.hpp */,
 			);
