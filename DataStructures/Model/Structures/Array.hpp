@@ -37,4 +37,90 @@ public:
     void setAtIndex(int index, Type data);
 };
 
+template <class Type>
+Array<Type> :: Array(int size)
+{
+    assert(size > 0);
+    this->size = size;
+    
+    internalArray = new Type[size];
+}
+
+template <class Type>
+Array<Type> :: Array(const Array<Type> & toCopy)
+{
+    this->size = toCopy.getSize();
+    
+    //Build Data Structure
+    internalArray = new Type[size];
+    
+    for(int index = 0; index < size; index++)
+    {
+        internalArray[index] = toCopy[index];
+    }
+}
+
+template <class Type>
+Array<Type> :: ~Array()
+{
+    delete [] internalArray;
+}
+
+template <class Type>
+Array<Type> & Array<Type> :: operator = (const Array<Type> & toAssign)
+{
+    if (&toAssign != this)
+    {
+        if (size != toAssign.getSize())
+        {
+            delete [] internalArray;
+            size = toAssign.getSize();
+            internalArray = new Type [size];
+        }
+        
+        for (int index = 0; index < size; index++)
+        {
+            internalArray[index] = toAssign[index];
+        }
+    }
+    return *this;
+}
+
+template <class Type>
+Type & Array<Type> :: operator [] (int index)
+{
+    assert(index >= 0 && index < size);
+    return internalArray[index];
+}
+
+template <class Type>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #endif /* Array_hpp */
