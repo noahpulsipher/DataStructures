@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E478D5692024EDF200BE300D /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E478D5672024EDF200BE300D /* Array.cpp */; };
 		E4DD74A72022436800F8E087 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD74A62022436800F8E087 /* Runner.cpp */; };
 		E4DD74AA2022437800F8E087 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD74A82022437800F8E087 /* Controller.cpp */; };
 		E4DD74AD2022470400F8E087 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD74AB2022470400F8E087 /* Timer.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E478D5672024EDF200BE300D /* Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
+		E478D5682024EDF200BE300D /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		E4DD749B2022433D00F8E087 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DD74A62022436800F8E087 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		E4DD74A82022437800F8E087 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -51,6 +54,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E478D5652024ED5500BE300D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E478D5662024EDC500BE300D /* Structures */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E478D5662024EDC500BE300D /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				E478D5672024EDF200BE300D /* Array.cpp */,
+				E478D5682024EDF200BE300D /* Array.hpp */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
 		E4DD74922022433D00F8E087 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +93,7 @@
 				E4DD74A62022436800F8E087 /* Runner.cpp */,
 				E4DD74C82022544F00F8E087 /* Data */,
 				E4DD74A52022435300F8E087 /* Controller */,
+				E478D5652024ED5500BE300D /* Model */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -170,6 +191,7 @@
 				E4DD74A72022436800F8E087 /* Runner.cpp in Sources */,
 				E4DD74AA2022437800F8E087 /* Controller.cpp in Sources */,
 				E4DD74BF20224F7F00F8E087 /* FileController.cpp in Sources */,
+				E478D5692024EDF200BE300D /* Array.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
