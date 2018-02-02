@@ -9,10 +9,10 @@
 #ifndef Array_hpp
 #define Array_hpp
 
-#include <iostream>
-#include <assert.h>
+#include <iostream> //Used for validating user supplied data.
+#include <assert.h> //Used for tracing and debug statements.
 
-using namespace std;
+using namespace std; //Used for keyword access.
 
 template <class Type>
 class Array
@@ -23,14 +23,18 @@ private:
 public:
     //Contsructor
     Array<Type>(int size);
+    
     //Copy Contsructor
     Array<Type>(const Array<Type> & toCopy);
+   
     //Destructor
     ~Array<Type>();
+    
     //Operators
     Array<Type> & operator = (const Array<Type> & toReplace);
     Type& operator [] (int index);
     Type operator [] (int index) const;
+   
     //Methods
     int getSize() const;
     Type getFromIndex(int index);
