@@ -63,5 +63,10 @@ void Controller :: findMaxAndMin()
 
 void Controller :: testArray()
 {
+    Array<int> noahArray(420);
     
+    noahArray[0] = 123;
+    noahArray.setAtIndex(0, 321);
+    
+    cout << noahArray[0] << endl;
 }

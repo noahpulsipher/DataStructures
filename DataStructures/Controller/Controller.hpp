@@ -19,8 +19,8 @@
 class Controller
 {
 private:
-    void findMaxAndMin();
     void testArray();
+    void findMaxAndMin();
 public:
     void start();
 };
