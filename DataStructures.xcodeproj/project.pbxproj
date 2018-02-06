@@ -84,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				E4DD749D2022433D00F8E087 /* DataStructures */,
-				E4DD74A62022436800F8E087 /* Runner.cpp */,
 				E4DD749C2022433D00F8E087 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +99,7 @@
 		E4DD749D2022433D00F8E087 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				E4DD74A62022436800F8E087 /* Runner.cpp */,
 				E448D467202A33850075090C /* Testers */,
 				E4DD74C82022544F00F8E087 /* Data */,
 				E4DD74A52022435300F8E087 /* Controller */,
