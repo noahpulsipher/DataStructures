@@ -84,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				E4DD749D2022433D00F8E087 /* DataStructures */,
+				E4DD74A62022436800F8E087 /* Runner.cpp */,
 				E4DD749C2022433D00F8E087 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				E448D467202A33850075090C /* Testers */,
-				E4DD74A62022436800F8E087 /* Runner.cpp */,
 				E4DD74C82022544F00F8E087 /* Data */,
 				E4DD74A52022435300F8E087 /* Controller */,
 				E478D5652024ED5500BE300D /* Model */,
@@ -111,11 +111,11 @@
 		E4DD74A52022435300F8E087 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E4DD74AE2022470900F8E087 /* Tools */,
 				E4DD74A82022437800F8E087 /* Controller.cpp */,
 				E4DD74A92022437800F8E087 /* Controller.hpp */,
 				E4DD74BD20224F7F00F8E087 /* FileController.cpp */,
 				E4DD74BE20224F7F00F8E087 /* FileController.hpp */,
-				E4DD74AE2022470900F8E087 /* Tools */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

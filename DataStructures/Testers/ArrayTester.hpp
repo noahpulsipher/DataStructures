@@ -14,7 +14,6 @@
 #include "../Controller/FileController.hpp"
 #include "../Controller/Tools/Timer.hpp"
 
-
 class ArrayTester
 {
 public:
