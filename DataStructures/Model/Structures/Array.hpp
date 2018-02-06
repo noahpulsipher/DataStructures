@@ -6,6 +6,8 @@
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 
+// An array is really just a pointer of that type in C++
+
 #ifndef Array_hpp
 #define Array_hpp
 
@@ -67,7 +69,9 @@ Array<Type> :: Array(const Array<Type> & toCopy)
 template <class Type>
 Array<Type> :: ~Array()
 {
+    cout << "About to delete the structure" << endl;
     delete [] internalArray;
+    cout << "Internal array deletd" << endl;
 }
 
 template <class Type>

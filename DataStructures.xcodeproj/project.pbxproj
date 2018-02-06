@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E448D46A202A33B00075090C /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E448D468202A33B00075090C /* ArrayTester.cpp */; };
 		E4DD74A72022436800F8E087 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD74A62022436800F8E087 /* Runner.cpp */; };
 		E4DD74AA2022437800F8E087 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD74A82022437800F8E087 /* Controller.cpp */; };
 		E4DD74AD2022470400F8E087 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD74AB2022470400F8E087 /* Timer.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E448D468202A33B00075090C /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
+		E448D469202A33B00075090C /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 		E478D5682024EDF200BE300D /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		E4DD749B2022433D00F8E087 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DD74A62022436800F8E087 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
@@ -52,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E448D467202A33850075090C /* Testers */ = {
+			isa = PBXGroup;
+			children = (
+				E448D468202A33B00075090C /* ArrayTester.cpp */,
+				E448D469202A33B00075090C /* ArrayTester.hpp */,
+			);
+			path = Testers;
+			sourceTree = "<group>";
+		};
 		E478D5652024ED5500BE300D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +99,7 @@
 		E4DD749D2022433D00F8E087 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				E448D467202A33850075090C /* Testers */,
 				E4DD74A62022436800F8E087 /* Runner.cpp */,
 				E4DD74C82022544F00F8E087 /* Data */,
 				E4DD74A52022435300F8E087 /* Controller */,
@@ -187,6 +200,7 @@
 				E4DD74D02022557A00F8E087 /* CrimeData.cpp in Sources */,
 				E4DD74A72022436800F8E087 /* Runner.cpp in Sources */,
 				E4DD74AA2022437800F8E087 /* Controller.cpp in Sources */,
+				E448D46A202A33B00075090C /* ArrayTester.cpp in Sources */,
 				E4DD74BF20224F7F00F8E087 /* FileController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
