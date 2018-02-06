@@ -8,6 +8,11 @@
 
 #include "CrimeData.hpp"
 
+CrimeData :: CrimeData()
+{
+    // Nothing
+}
+
 CrimeData :: CrimeData(string currentCSVLine)
 {
     stringstream parseCSV(currentCSVLine);
@@ -60,6 +65,7 @@ CrimeData :: CrimeData(string currentCSVLine)
     this->allRobbery = (stoi(tempAllRobbery));
     this->year = (stoi(tempYear));
 }
+
 /**
  Used for output either to a screen or a file using the << operator.
  It is a "friend" since that is how we are able to use the output stream.
