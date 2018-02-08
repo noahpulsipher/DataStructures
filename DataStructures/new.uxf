@@ -63,4 +63,45 @@ bg=cyan
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>170.0;10.0;10.0;10.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>550</y>
+      <w>460</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>
+List&lt;Type&gt;
+
+--
+
+# size : int
+
+--
+
++ add(Type item) : void
++ addAtIndex(int index, Type item) : void
++ remove(Type item) : Type
++ getFromIndex(int index) : Type
+
++ getSize() const : int
++ getFront() : LinearNode&lt;Type&gt; *
++ getEnd() : LinearNode&lt;Type&gt; *
+
+bg=red
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>430</y>
+      <w>30</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
 </diagram>
