@@ -6,6 +6,8 @@
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 
+// Node is a data bucket.
+
 #ifndef Node_hpp
 #define Node_hpp
 
