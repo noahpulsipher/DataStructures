@@ -10,6 +10,7 @@
 		E448D46A202A33B00075090C /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E448D468202A33B00075090C /* ArrayTester.cpp */; };
 		E461F254202A44160030E8F3 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E461F252202A44160030E8F3 /* Node.cpp */; };
 		E461F257202A47110030E8F3 /* LinearNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E461F255202A47110030E8F3 /* LinearNode.cpp */; };
+		E4A9CD2B203CA26B00EC09A2 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4A9CD29203CA26B00EC09A2 /* LinkedList.cpp */; };
 		E4DD74A72022436800F8E087 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD74A62022436800F8E087 /* Runner.cpp */; };
 		E4DD74AA2022437800F8E087 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD74A82022437800F8E087 /* Controller.cpp */; };
 		E4DD74AD2022470400F8E087 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD74AB2022470400F8E087 /* Timer.cpp */; };
@@ -37,6 +38,8 @@
 		E461F255202A47110030E8F3 /* LinearNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearNode.cpp; sourceTree = "<group>"; };
 		E461F256202A47110030E8F3 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		E478D5682024EDF200BE300D /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		E4A9CD29203CA26B00EC09A2 /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		E4A9CD2A203CA26B00EC09A2 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		E4BE3DE1202CE16B00C638E5 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		E4DD749B2022433D00F8E087 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DD74A62022436800F8E087 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 			children = (
 				E478D5682024EDF200BE300D /* Array.hpp */,
 				E4BE3DE1202CE16B00C638E5 /* List.hpp */,
+				E4A9CD29203CA26B00EC09A2 /* LinkedList.cpp */,
+				E4A9CD2A203CA26B00EC09A2 /* LinkedList.hpp */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 				E4DD74A72022436800F8E087 /* Runner.cpp in Sources */,
 				E4DD74AA2022437800F8E087 /* Controller.cpp in Sources */,
 				E448D46A202A33B00075090C /* ArrayTester.cpp in Sources */,
+				E4A9CD2B203CA26B00EC09A2 /* LinkedList.cpp in Sources */,
 				E4DD74BF20224F7F00F8E087 /* FileController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
