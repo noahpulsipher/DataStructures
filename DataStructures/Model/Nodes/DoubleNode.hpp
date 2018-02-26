@@ -53,7 +53,7 @@ DoubleNode<Type> :: DoubleNode(Type data, DoubleNode<Type> *previous, DoubleNode
 template <class Type>
 void DoubleNode<Type> :: setNext(DoubleNode<Type>* next)
 {
-    this-> = next;
+    this->next = next;
 }
 
 template <class Type>

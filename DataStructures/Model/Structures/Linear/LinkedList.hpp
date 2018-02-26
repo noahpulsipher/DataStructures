@@ -9,7 +9,6 @@
 #ifndef LinkedList_hpp
 #define LinkedList_hpp
 
-#include <stdio.h>
 #include "List.hpp"
 
 using namespace std; //Used fo keyword access. Use this to make sure your pointers are pointing to the right things.
