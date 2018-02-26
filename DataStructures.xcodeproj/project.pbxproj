@@ -36,6 +36,7 @@
 		E448D469202A33B00075090C /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 		E461F253202A44160030E8F3 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		E461F256202A47110030E8F3 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
+		E4658C0920448FB100A65706 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		E478D5682024EDF200BE300D /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		E4A9CD29203CA26B00EC09A2 /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
 		E4A9CD2A203CA26B00EC09A2 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 			children = (
 				E461F253202A44160030E8F3 /* Node.hpp */,
 				E461F256202A47110030E8F3 /* LinearNode.hpp */,
+				E4658C0920448FB100A65706 /* DoubleNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
