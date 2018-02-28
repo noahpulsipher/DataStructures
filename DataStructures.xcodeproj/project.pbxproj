@@ -78,6 +78,7 @@
 				E478D5682024EDF200BE300D /* Array.hpp */,
 				E4BE3DE1202CE16B00C638E5 /* List.hpp */,
 				E4252065203F4A5400D31C55 /* Stack.hpp */,
+				E4DD74AC2022470400F8E087 /* Timer.hpp */,
 				E4252068203F4A6300D31C55 /* Queue.hpp */,
 				E4658C0F2044997B00A65706 /* CircularList.hpp */,
 			);
@@ -169,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				E4DD74AB2022470400F8E087 /* Timer.cpp */,
-				E4DD74AC2022470400F8E087 /* Timer.hpp */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
