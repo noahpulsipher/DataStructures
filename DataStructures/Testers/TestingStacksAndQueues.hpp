@@ -22,7 +22,7 @@ class TestingStacksAndQueses
 {
 public:
     void stackVersusList();
-    void stackVersus Queue();
+    void stackVersusQueue();
     void queueVersusList();
 };
 

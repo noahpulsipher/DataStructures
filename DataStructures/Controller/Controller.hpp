@@ -11,7 +11,7 @@
 
 #include <iostream>
 #include <vector>
-#include "Tools/Timer.hpp"
+#include "/Users/npul1355/Documents/C++/DataStructures/DataStructures/Model/Structures/Linear/Timer.hpp"
 #include "FileController.hpp"
 #include "/Users/npul1355/Documents/C++/DataStructures/DataStructures/Model/Structures/Linear/Array.hpp"
 #include "../Testers/ArrayTester.hpp"

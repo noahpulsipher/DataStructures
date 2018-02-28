@@ -29,16 +29,17 @@ public:
     Type remove(int index);
     Type getFromIndex(int index);
     int getSize() const;
+    
+    LinearNode<Type>* getFront();
+    LinearNode<Type>* getEnd();
 };
 
 template <class Type>
 CircularList<Type> :: CircularList()
 {
-    front->setPrevious(end);
-    front->setNext(end);
-    
-    end->setPrevious(front);
-    end->setNext(front);
+    front = nullptr;
+    end = nullptr;
+    this->size = 0;
 }
 
 template <class Type>
@@ -58,6 +59,7 @@ DoubleNode<Type> * CircularList<Type> :: findNode(int index)
 {
     assert (index >= 0 && index < this->size);
     DoubleNode<Type> * nodeToFind;
+    
     if (index < this->size / 2)
     {
         nodeToFind = this->front;
@@ -172,6 +174,18 @@ template <class Type>
 int CircularList<Type> :: getSize() const
 {
     return this->size;
+}
+
+template <class Type>
+LinearNode<Type> * CircularList<Type> :: getFront()
+{
+    return nullptr;
+}
+
+template <class Type>
+LinearNode<Type> * CircularList<Type> :: getEnd()
+{
+    return nullptr;
 }
 
 #endif /* CircularList_hpp */

@@ -12,7 +12,7 @@
 #include <iostream>
 #include "/Users/npul1355/Documents/C++/DataStructures/DataStructures/Model/Structures/Linear/Array.hpp"
 #include "../Controller/FileController.hpp"
-#include "../Controller/Tools/Timer.hpp"
+#include "/Users/npul1355/Documents/C++/DataStructures/DataStructures/Model/Structures/Linear/Timer.hpp"
 
 class ArrayTester
 {
