@@ -66,7 +66,7 @@ void stackVersusList()
 
 void stackVersusQueue()
 {
-    vector<CrimeData> data = FileController :: readCrimeDataToVector("path to file");
+    vector<CrimeData> data = FileController :: readCrimeDataToVector("/Users/npul1355/Documents/C++/DataStructures/DataStructures/Data/crime.csv");
     
     Stack<CrimeData> crimeStack;
     Queue<CrimeData> crimeQueue;
