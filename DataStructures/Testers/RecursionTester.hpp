@@ -11,7 +11,7 @@
 
 #include <iostream>
 #include <string>
-#include "/Users/npul1355/Documents/C++/DataStructures/DataStructures/Controller/Tools/Timer.cpp"
+#include "/Users/npul1355/Documents/C++/DataStructures/DataStructures/Controller/Tools/Timer.hpp"
 
 using namespace std;
 
