@@ -38,10 +38,13 @@ void Controller :: start()
 //    myTest.testArrayUse();
 //    myTest.testAdvancedArray();
     
-    LinkedListTester linkTest;
-    linkTest.testListBasics();
-    linkTest.testListWithData();
+//    LinkedListTester linkTest;
+//    linkTest.testListBasics();
+//    linkTest.testListWithData();
     
+    RecursionTester test;
+    test.testRecursionNumbers();
+    test.testRecursionString();
 }
 
 void Controller :: findMaxAndMin()

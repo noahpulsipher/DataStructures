@@ -21,8 +21,8 @@ private:
     int fib(int start);
     string mystery(string word);
 public:
-    void testRecurionNumbers();
-    void testRecurionString();
+    void testRecursionNumbers();
+    void testRecursionString();
 };
 
 #endif /* RecursionTester_hpp */

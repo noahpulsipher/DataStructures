@@ -12,7 +12,7 @@
 #include <iostream>
 #include "/Users/npul1355/Documents/C++/DataStructures/DataStructures/Model/Structures/Linear/LinkedList.hpp"
 #include "../Controller/FileController.hpp"
-#include "/Users/npul1355/Documents/C++/DataStructures/DataStructures/Model/Structures/Linear/Timer.hpp"
+#include "/Users/npul1355/Documents/C++/DataStructures/DataStructures/Controller/Tools/Timer.hpp"
 #include "../Data/CrimeData.hpp"
 
 class LinkedListTester
