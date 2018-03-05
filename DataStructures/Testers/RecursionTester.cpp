@@ -7,3 +7,24 @@
 //
 
 #include "RecursionTester.hpp"
+
+int RecursionTester :: fib(int number)
+{
+    
+}
+
+string RecursionTester :: mystery(string word)
+{
+    
+}
+
+//void RecursionTester :: testRecursionNumbers()
+//{
+//
+//}
+//
+//void RecursionTester :: testRecursionString()
+//{
+//
+//}
+

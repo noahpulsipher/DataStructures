@@ -9,6 +9,20 @@
 #ifndef RecursionTester_hpp
 #define RecursionTester_hpp
 
-#include <stdio.h>
+#include <iostream>
+#include <string>
+#include "/Users/npul1355/Documents/C++/DataStructures/DataStructures/Controller/Tools/Timer.cpp"
+
+using namespace std;
+
+class RecursionTester
+{
+private:
+    int fib(int start);
+    string mystery(string word);
+public:
+    void testRecurionNumbers();
+    void testRecurionString();
+};
 
 #endif /* RecursionTester_hpp */
