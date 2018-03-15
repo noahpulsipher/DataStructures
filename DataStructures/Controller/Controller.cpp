@@ -42,9 +42,13 @@ void Controller :: start()
 //    linkTest.testListBasics();
 //    linkTest.testListWithData();
     
-    RecursionTester test;
-    test.testRecursionNumbers();
-    test.testRecursionString();
+//    RecursionTester test;
+//    test.testRecursionNumbers();
+//    test.testRecursionString();
+    
+    SortingTester test;
+    test.testSorts();
+    
 }
 
 void Controller :: findMaxAndMin()

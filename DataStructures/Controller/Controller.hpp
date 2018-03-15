@@ -17,6 +17,7 @@
 #include "../Testers/ArrayTester.hpp"
 #include "../Testers/LinkedListTester.hpp"
 #include "/Users/npul1355/Documents/C++/DataStructures/DataStructures/Testers/RecursionTester.hpp"
+#include "/Users/npul1355/Documents/C++/DataStructures/DataStructures/Testers/SortingTester.hpp"
 
 
 class Controller
