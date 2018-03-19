@@ -18,6 +18,7 @@
 		E4DD74AD2022470400F8E087 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD74AB2022470400F8E087 /* Timer.cpp */; };
 		E4DD74BF20224F7F00F8E087 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD74BD20224F7F00F8E087 /* FileController.cpp */; };
 		E4DD74D02022557A00F8E087 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD74CF2022557A00F8E087 /* CrimeData.cpp */; };
+		E4DEF0F420603617000140AE /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DEF0F220603617000140AE /* Graph.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +65,8 @@
 		E4DD74CD2022557A00F8E087 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		E4DD74CE2022557A00F8E087 /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		E4DD74CF2022557A00F8E087 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
+		E4DEF0F220603617000140AE /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		E4DEF0F320603617000140AE /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,7 @@
 		E478D5662024EDC500BE300D /* Structures */ = {
 			isa = PBXGroup;
 			children = (
+				E4DEF0F1206035FB000140AE /* Non-Linear */,
 				E4252063203F495C00D31C55 /* Linear */,
 				E4A9CD29203CA26B00EC09A2 /* LinkedList.cpp */,
 			);
@@ -194,6 +198,15 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		E4DEF0F1206035FB000140AE /* Non-Linear */ = {
+			isa = PBXGroup;
+			children = (
+				E4DEF0F220603617000140AE /* Graph.cpp */,
+				E4DEF0F320603617000140AE /* Graph.hpp */,
+			);
+			path = "Non-Linear";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -255,6 +268,7 @@
 				E46F9125204DC54600DDBD9D /* RecursionTester.cpp in Sources */,
 				E4DD74D02022557A00F8E087 /* CrimeData.cpp in Sources */,
 				E4DD74A72022436800F8E087 /* Runner.cpp in Sources */,
+				E4DEF0F420603617000140AE /* Graph.cpp in Sources */,
 				E4DD74AA2022437800F8E087 /* Controller.cpp in Sources */,
 				E4658C0D2044954800A65706 /* TestingStacksAndQueues.cpp in Sources */,
 				E448D46A202A33B00075090C /* ArrayTester.cpp in Sources */,
