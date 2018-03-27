@@ -17,7 +17,7 @@ class LinearNode : public Node<Type>
 protected:
     LinearNode<Type> * next;
 public:
-    //Contructors
+    //Constructors
     LinearNode();
     LinearNode(Type data);
     LinearNode(Type data, LinearNode<Type> * next);
