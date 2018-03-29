@@ -49,7 +49,7 @@ BinaryTreeNode<Type> :: BinaryTreeNode(Type data) : Node<Type>(data)
 }
 
 template <class Type>
-BinaryTreeNode<Type> :: BinaryTreeNode<Type> :: getRootNode()
+BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getRootNode()
 {
     return this->root;
 }
@@ -63,7 +63,13 @@ BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getLeftNode()
 template <class Type>
 BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getRightNode()
 {
-    retunr this->right;
+    return this->right;
+}
+
+template <class Type>
+void BinaryTreeNode<Type> :: setRootNode()
+{
+    
 }
 
 #endif /* BinaryTreeNode_hpp */
