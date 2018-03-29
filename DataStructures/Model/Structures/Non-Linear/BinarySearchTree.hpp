@@ -24,7 +24,7 @@ public:
     
     void inOrderTraversal();
     void preOrderTraversal();
-    void prostOrderTraversal();
+    void postOrderTraversal();
     void demoTraversalSteps(BinaryTreeNode<Type> * node);
     
     int getSize();
@@ -56,5 +56,136 @@ protected:
     void removeNode(BinaryTreeNode<Type> * removeMe);
     
 };
+
+template <class Type>
+BinarySearchTree<Type> :: BinarySearchTree()
+{
+    this->root = nullptr;
+}
+
+template <class Type>
+void setRoot(BinaryTreeNode<Type> * root)
+{
+    
+}
+
+template <class Type>
+void inOrderTraversal()
+{
+    
+}
+
+template <class Type>
+void preOrderTraversal()
+{
+    
+}
+
+template <class Type>
+void postOrderTraversal()
+{
+    
+}
+
+template <class Type>
+void demoTraversalSteps(BinaryTreeNode<Type> * node)
+{
+    
+}
+
+template <class Type>
+int getSize()
+{
+    
+    return -1;
+}
+
+template <class Type>
+int getHeight()
+{
+    
+    return -1;
+}
+
+template <class Type>
+bool isComplete()
+{
+    
+    return false;
+}
+
+template <class Type>
+bool isBalanced()
+{
+    
+    return false;
+}
+
+template <class Type>
+int calculateSize(BinaryTreeNode<Type> * startNode)
+{
+    
+    return -1;
+}
+
+template <class Type>
+int calculateHeight(BinaryTreeNode<Type> * startNode)
+{
+    
+    return -1;
+}
+
+template <class Type>
+bool isBalanced(BinaryTreeNode<Type> * startNode)
+{
+    
+    return false;
+}
+
+template <class Type>
+bool isComplete(BinaryTreeNode<Type> * startNode, int index, int size)
+{
+    
+    return false;
+}
+
+template <class Type>
+void inOrderTraversal(BinaryTreeNode<Type> * inStart)
+{
+    
+}
+
+template <class Type>
+void preOrderTraversal(BinaryTreeNode<Type> * preStart)
+{
+    
+}
+
+template <class Type>
+void postOrderTraversal(BinaryTreeNode<Type> * postStart)
+{
+    
+}
+
+template <class Type>
+void removeNode(BinaryTreeNode<Type> * removeMe)
+{
+    
+}
+
+template <class Type>
+
+template <class Type>
+
+template <class Type>
+
+template <class Type>
+
+template <class Type>
+
+template <class Type>
+
+
+
 
 #endif /* BinarySearchTree_hpp */
