@@ -73,6 +73,7 @@
 		E4DD74CE2022557A00F8E087 /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		E4DD74CF2022557A00F8E087 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		E4DEF0F320603617000140AE /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
+		E4F9BD54206D5FB400D56779 /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +215,7 @@
 			children = (
 				E4DEF0F320603617000140AE /* Graph.hpp */,
 				E4AD12AB206AD411003C7D9B /* Tree.hpp */,
+				E4F9BD54206D5FB400D56779 /* BinarySearchTree.hpp */,
 			);
 			path = "Non-Linear";
 			sourceTree = "<group>";

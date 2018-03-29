@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>100</y>
+      <x>320</x>
+      <y>90</y>
       <w>270</w>
       <h>210</h>
     </coordinates>
@@ -30,8 +30,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>540</x>
-      <y>100</y>
+      <x>610</x>
+      <y>20</y>
       <w>420</w>
       <h>340</h>
     </coordinates>
@@ -62,19 +62,19 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>180</y>
-      <w>120</w>
-      <h>30</h>
+      <x>580</x>
+      <y>100</y>
+      <w>50</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+    <additional_attributes>10.0;80.0;30.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>160</x>
-      <y>360</y>
+      <x>620</x>
+      <y>390</y>
       <w>350</w>
       <h>380</h>
     </coordinates>
@@ -105,6 +105,57 @@
 /+ postOrderTraversal() : void/
 
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>310</y>
+      <w>580</w>
+      <h>640</h>
+    </coordinates>
+    <panel_attributes>bg=red
+
+BinarySearcheTree&lt;Type&gt;
+
+--
+
+*Structure*
++ BinarySearchTree() : Constructor
++ ~BinarySearchTree() : Destructor
+
+*Informational Methods*
++ getSize() : int
++ getHeight() : int
++ isComplete() : bool
++ isBalanced() : bool
+
+*Recursive Information Helpers*
+# calculateSize(BinaryTreeNode&lt;Type&gt; * startNode) : int
+# calculateHeight(BinaryTreeNode&lt;Type&gt; * startNode) : int
+# isBalanced(BinaryTreeNode&lt;Type&gt; * startNode) : bool
+# isComplete(BinaryTreeNode&lt;Type&gt; * startNode, int index, int size) : bool
+
+*Data Methods*
++ insert(Type) : void
++ contains(Type) : bool
++ remove(Type) : void
+
+*Recursive Data Helpers*
+# removeNode(BinaryTreeNode&lt;Type&gt; * removeMe) : void
+
+*Traversals*
++ inOrderTraversal() : void
++ preOrderTraversal() : void
++ postOrderTraversal() : void
+
+*Recursive Traversal Helpers*
+# inOrderTraversal(BinaryTreeNode&lt;Type&gt; * inStart) : void
+# preOrderTraversal(BinaryTreeNode&lt;Type&gt; * preStart) : void
+# postOrderTraversal(BinaryTreeNode&lt;Type&gt; * postStart) : void
+# getRightMostChild(BinaryTreeNode&lt;Type&gt; * current) : BinaryTreeNode&lt;Type&gt; *
+# getLeftMostChild(BinaryTreeNode&lt;Type&gt; * current) : BinaryTreeNode&lt;Type&gt; *</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
