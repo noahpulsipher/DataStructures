@@ -499,4 +499,6 @@ Type BinarySearchTree<Type> :: findMinimum()
     return getLeftMostChild(this->root)->getData();
 }
 
+
+
 #endif /* BinarySearchTree_hpp */
