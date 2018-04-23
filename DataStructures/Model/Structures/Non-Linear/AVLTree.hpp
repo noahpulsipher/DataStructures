@@ -207,18 +207,4 @@ void AVLTree<Type> :: insert(Type item)
     insertNode(this->getRoot(), item);
 }
 
-template <class Type>
-
-
-
-
-
-
-
-
-
-
-
-
-
 #endif /* AVLTree_hpp */
