@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E41661C220939F5800973087 /* HashNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E41661C020939F5800973087 /* HashNode.cpp */; };
 		E436BA20205AE96300EF624D /* SortingTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E436BA1E205AE96300EF624D /* SortingTester.cpp */; };
 		E448D46A202A33B00075090C /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E448D468202A33B00075090C /* ArrayTester.cpp */; };
 		E4658C0D2044954800A65706 /* TestingStacksAndQueues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4658C0B2044954800A65706 /* TestingStacksAndQueues.cpp */; };
@@ -36,8 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E41661C020939F5800973087 /* HashNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HashNode.cpp; sourceTree = "<group>"; };
 		E41661C120939F5800973087 /* HashNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HashNode.hpp; sourceTree = "<group>"; };
+		E41661C42093A16C00973087 /* Hashtable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Hashtable.hpp; sourceTree = "<group>"; };
 		E4170DC3208E50D6007E8A3B /* N_AryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = N_AryTreeNode.hpp; sourceTree = "<group>"; };
 		E4252065203F4A5400D31C55 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		E4252068203F4A6300D31C55 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
@@ -134,7 +133,6 @@
 				E4AD12A5206ABF13003C7D9B /* BinaryTreeNode.hpp */,
 				E4658C0920448FB100A65706 /* DoubleNode.hpp */,
 				E4170DC3208E50D6007E8A3B /* N_AryTreeNode.hpp */,
-				E41661C020939F5800973087 /* HashNode.cpp */,
 				E41661C120939F5800973087 /* HashNode.hpp */,
 			);
 			path = Nodes;
@@ -225,6 +223,7 @@
 				E4AD12AB206AD411003C7D9B /* Tree.hpp */,
 				E4F9BD54206D5FB400D56779 /* BinarySearchTree.hpp */,
 				E453C92320866B7500418D4F /* AVLTree.hpp */,
+				E41661C42093A16C00973087 /* Hashtable.hpp */,
 			);
 			path = "Non-Linear";
 			sourceTree = "<group>";
@@ -299,7 +298,6 @@
 				E4DD74BF20224F7F00F8E087 /* FileController.cpp in Sources */,
 				E4A9CD2E203CAEC400EC09A2 /* LinkedListTester.cpp in Sources */,
 				E48F964A20696383000F177F /* GraphTester.cpp in Sources */,
-				E41661C220939F5800973087 /* HashNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
