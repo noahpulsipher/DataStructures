@@ -82,31 +82,7 @@ template <class Type>
 void N_AryTreeNode<Type> :: addChild(Type data)
 {
     N_AryTreeNode<Type> * node = new N_AryTreeNode<Type>(data);
-    nodes.push_back(node);
+    nodes.push_back(node);oi
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #endif /* N_AryTreeNode_hpp */
