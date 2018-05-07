@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>140</y>
+      <w>370</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>
+DataStructure.model.Structures :: Node
+
+--
+
+#data : Type
+
+--
+
++ Node() : constructor
++ Node(Type data) : constructor
++ getData() : Type
++ setData(Type data) : void
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>420</y>
+      <w>370</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>
+DataStructure.model.Structures :: HashNode
+
+bg=yellow
+--
+
+- key : long
+
+--
+
++ HashNode() : constructor
++ HashNode(Type data) : constructor
++ getKey() : long</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>220</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>340</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>160</y>
+      <w>530</w>
+      <h>390</h>
+    </coordinates>
+    <panel_attributes>
+DataStructure.model.Structures :: Hashtable
+
+bg=magenta
+--
+
+- internalStorage : HashNode&lt;Type&gt;**
+- size : long
+- capacity : long
+- loadFactor : double
+
+--
+
+- getNextPrime() : long
+- isPrime(long current) : bool
+- resize() : void
+- findPosition(HashNode&lt;Type&gt;* insertedNode) : long
+- handleCollision(long index) : long
+
++ Hashtable() : constructor
++ ~Hashtable() : deconstructor
++ insert(Type data) : void
++ getSize() : long
++ get(long index) : HashNode&lt;Type&gt;* 
++ contains(HashNode&lt;Type&gt; * value) : bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
